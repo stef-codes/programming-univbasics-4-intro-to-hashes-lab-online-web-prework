@@ -8,9 +8,10 @@ def new_hash
 end
 
 def my_hash
+binding.pry
   la_icon = {
-      name: "Dr.Dre",
-      role: "Producer"
+      name: "Dr.Dre ,
+      role: 
   };
 end
 
@@ -41,7 +42,6 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
- binding.pry
   if hash[key]
    hash[key] += 1
   else
