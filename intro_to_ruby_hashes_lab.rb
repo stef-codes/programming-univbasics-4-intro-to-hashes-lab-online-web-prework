@@ -10,9 +10,9 @@ end
 def my_hash
 binding.pry
   la_icon = {
-      name: "Dr.Dre"
-      
-   
+      name: "Dr.Dre", 
+      producer: "Chronic"
+    
   };
 end
 
